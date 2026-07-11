@@ -13,18 +13,18 @@
 
 ## Table of Contents
 
-- [Project Overview](#project-overview)
-- [Tools & Concepts](#tools--concepts)
-- [IAM Users](#iam-users)
-- [IAM Groups](#iam-groups)
-- [Logging in as IAM User](#logging-in-as-iam-user)
-- [EC2 Instance Creation](#ec2-instance-creation)
-- [Tagging Strategy](#tagging-strategy)
-- [S3 Bucket Creation](#s3-bucket-creation)
-- [S3 Bucket Policy](#s3-bucket-policy)
-- [Policy Testing](#policy-testing)
-- [Screenshots / Evidence](#screenshots--evidence)
-- [Conclusion](#conclusion)
+- [Project Overview]
+- [Tools & Concepts]
+- [IAM Users]
+- [IAM Groups]
+- [Logging in as IAM User]
+- [EC2 Instance Creation]
+- [Tagging Strategy]
+- [S3 Bucket Creation]
+- [S3 Bucket Policy]
+- [Policy Testing]
+- [Screenshots / Evidence]
+- [Conclusion]
 
 ---
 
@@ -131,12 +131,19 @@ The policy successfully blocked destructive actions.
 **Key screenshots captured during the project:**
 
 - IAM Users successfully created (`cybersoldier-security-alabi` & `cybersoldier-developer-tunji`)
+- ![image alt](https://github.com/Junaid-1972/AWS-IAM-Cloud-Security-Project-For-Cybersoldier-Solution/blob/main/IAM%20user.png?raw=true)
 - IAM Groups (`cybersoldier-security` and `cybersoldier-developer`) with users attached
+- ![image alt](https://github.com/Junaid-1972/AWS-IAM-Cloud-Security-Project-For-Cybersoldier-Solution/blob/main/IAM%20usergroup.png?raw=true)
 - EC2 Instance (`Cybersoldier-Windows-Server`) running with proper tags applied
+- ![image alt]()
 - S3 Bucket (`cybersoldierbucket`) created and object uploaded
+- ![image alt](https://github.com/Junaid-1972/AWS-IAM-Cloud-Security-Project-For-Cybersoldier-Solution/blob/main/Bucket.png?raw=true)
 - Custom S3 Bucket Policy in JSON format
+- ![image alt](https://github.com/Junaid-1972/AWS-IAM-Cloud-Security-Project-For-Cybersoldier-Solution/blob/main/S3%20bucket%20policy.png?raw=true)
 - Policy enforcement test showing "Access Denied" when attempting to delete the bucket or bucket policy
+- ![image alt](https://github.com/Junaid-1972/AWS-IAM-Cloud-Security-Project-For-Cybersoldier-Solution/blob/main/Bucket%20policy%20enforced.png?raw=true)
 - AWS Management Console views for IAM, EC2, and S3 services
+- ![image alt](https://github.com/Junaid-1972/AWS-IAM-Cloud-Security-Project-For-Cybersoldier-Solution/blob/main/Login%20as%20IAM%20user.png?raw=true)
 
 *(All major steps were documented with screenshots in the original report for verification and portfolio purposes)*
 
